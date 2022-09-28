@@ -356,6 +356,7 @@ color: #737373;
 .page4__cards{
     display: flex;
     gap: 30px;
+    padding-left: 50px;
 
 }
 
@@ -368,18 +369,23 @@ border: 1px solid #DEDEDE;
 border-radius: 5px;
 width: 327px;
 height: 244px;
-
+margin-top: 70px;
+margin-left: 30px;
+margin-bottom: 150px;
 }
 
 .card4__content{
     display: flex;
     flex-direction: column;
     gap: 20px;
+    padding-left: 40px;
+    padding-bottom: 20px;
 }
 
 .header{
     display:flex;
     padding-top: 20px;
+    gap: 5px;
 
 }
 .card4__para{
@@ -396,12 +402,17 @@ color: #737373;
 
 .footer{
     display: flex;
-    gap: 30px;
+    gap: 15px;
+}
+
+.footer__image{
+    width: 50px;
+    height: 50px;
 }
 
 .footer__name{
-    width: 95px;
-height: 24px;
+    width: 105px;
+height: 10px;
 font-family: 'Montserrat';
 font-style: normal;
 font-weight: 600;
@@ -414,7 +425,7 @@ color: #FFA62B;
 
 .footer__caption{
     width: 67px;
-height: 24px;
+height: 14px;
 font-family: 'Montserrat';
 font-style: normal;
 font-weight: 600;
@@ -428,5 +439,5 @@ color: #252B42;
 .footer__words{
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 15px;
 }
