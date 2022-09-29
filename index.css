@@ -4,12 +4,76 @@
 }
 
 @media only screen and  (max-width: 414px){
+
+
+   
     .nav__links{
+        position: relative;
         display: flex;
         flex-direction: column;
-        
+        gap: 20px;
+        padding-left: 0px;
+
     }
+
+    .nav__sub-icons{
+        position: absolute;
+        padding-top: 6px;
+        left: 250px;
+    }
+
+    .nav__sub{
+        position: absolute;
+        padding-top: 9px;
+        left: 355px;
+    }
+
+
+
+    .nav__link{
+
+width: 94px;
+height: 45px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 45px;
+/* identical to box height, or 150% */
+text-align: center;
+letter-spacing: 0.2px;
+
+color: #737373;
+    }
+
+
+
+   .page2__cards{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    
+       
+        
+   }
+
+   .card1{
+    flex-wrap: wrap;
+   }
+    
+
+
+
 }
+
+
+
+
+
+
+
+
+
 
 .page1{
     background: #FAFAFA;
@@ -29,17 +93,32 @@ font-size: 24px;
 line-height: 32px;
 letter-spacing: 0.1px;
 color: #252B42;
-margin-bottom: 200px;
+margin-bottom: 0px;
 }
 
 li {
     list-style-type: none;
 }
 
+.nav__sub-icons{
+    padding-left: 20px;
+    display: flex;
+    gap: 20px;
+}
+
+.nav__icons{
+    position: absolute;
+    left: 880px;
+    top: 30px;
+    display: flex;
+    gap: 230px;
+}
+
 .nav__links{
     display: flex;
     gap: 20px;
-    padding-left:600px; 
+    padding-left:420px; 
+    padding-top: 5px;
 }
 .nav__link{
 font-style: normal;
@@ -72,6 +151,7 @@ color: #252B42;
     gap: 5px;
     flex-direction: column;
     align-items: center;
+    padding-top: 100px;
 }
 
 .page1__para{
@@ -101,12 +181,6 @@ color: #737373;
 .page1__btn1{
     display: block;
     border: none;
-       /* display: flex;
-flex-direction: column;
-align-items: center;
-padding: 10px 36px;
-gap: 10px; */
-
 width: 240px;
 height: 54px;
 background: #FFA62B;
